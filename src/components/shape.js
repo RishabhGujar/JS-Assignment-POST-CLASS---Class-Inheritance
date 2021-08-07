@@ -4,7 +4,7 @@
 
 class Shape{
   constructor(){
-      this.color = "black;
+      this.color = "black";
   }
   drawShape(){
    return "drawshape";
