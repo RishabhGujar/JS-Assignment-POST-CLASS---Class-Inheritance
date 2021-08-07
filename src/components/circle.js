@@ -15,3 +15,4 @@ class Circle extends Shape{
      return "hello"
     }
 }
+module.exports = Circle;
