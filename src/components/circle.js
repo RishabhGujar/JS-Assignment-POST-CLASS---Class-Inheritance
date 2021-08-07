@@ -4,16 +4,14 @@
 
 
 // export class using module.exports
-class Shape{
-    constructor(color){
-        this.color = color;
-    }
-    drawShape(){
-     return "drawshape";
+const Shape = require('./shape');
+class Circle extends Shape{
+    constructor(){
+        super();
+
     }
     calculateArea(){
-     
+
+     return "hello"
     }
 }
-
-module.exports = Shape;
